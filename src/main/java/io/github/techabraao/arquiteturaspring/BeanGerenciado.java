@@ -21,6 +21,12 @@ public class BeanGerenciado {
     @Autowired
     private TodoValidator validator;
 
+    @Autowired
+    private String variavel;
+
+    @Autowired
+    private Integer valor;
+
     // Pode ou não utilizar o @Autowired
     @Autowired
     public void setValidator(TodoValidator validator) {
